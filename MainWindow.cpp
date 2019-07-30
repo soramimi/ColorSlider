@@ -13,6 +13,8 @@ MainWindow::MainWindow(QWidget *parent) :
 	ui->slider_hsv_h->setColorType(ColorSlider::HSV_H);
 	ui->slider_hsv_s->setColorType(ColorSlider::HSV_S);
 	ui->slider_hsv_v->setColorType(ColorSlider::HSV_V);
+
+	setColor(Qt::black);
 }
 
 MainWindow::~MainWindow()
