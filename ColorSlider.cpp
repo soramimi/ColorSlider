@@ -22,8 +22,6 @@ void ColorSlider::setColorType(ColorType type)
 	int max = (color_type_ == HSV_H) ? 359 : 255;
 	setMaximum(max);
 
-	setValue(120);
-
 	update();
 }
 
