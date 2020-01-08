@@ -7,12 +7,12 @@ MainWindow::MainWindow(QWidget *parent) :
 {
 	ui->setupUi(this);
 
-	ui->slider_rgb_r->setColorType(ColorSlider::RGB_R);
-	ui->slider_rgb_g->setColorType(ColorSlider::RGB_G);
-	ui->slider_rgb_b->setColorType(ColorSlider::RGB_B);
-	ui->slider_hsv_h->setColorType(ColorSlider::HSV_H);
-	ui->slider_hsv_s->setColorType(ColorSlider::HSV_S);
-	ui->slider_hsv_v->setColorType(ColorSlider::HSV_V);
+	ui->slider_rgb_r->setVisualType(ColorSlider::RGB_R);
+	ui->slider_rgb_g->setVisualType(ColorSlider::RGB_G);
+	ui->slider_rgb_b->setVisualType(ColorSlider::RGB_B);
+	ui->slider_hsv_h->setVisualType(ColorSlider::HSV_H);
+	ui->slider_hsv_s->setVisualType(ColorSlider::HSV_S);
+	ui->slider_hsv_v->setVisualType(ColorSlider::HSV_V);
 
 	setColor(Qt::black);
 }
